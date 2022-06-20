@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="menu">
+            <div class="menu_flex container">
+                <div class="left_menu">
+                    <a href="index.html"><img src="Photos/logo.svg" alt="logo"></a>
+                    <img src="Photos/search.svg" alt="search">
+                </div>
+                <div class="right_menu">
+                    <img class="burger" src="Photos/burger.svg" alt="burger">
+                    <a href="registration.html"><img src="Photos/contact.svg" alt="contact"></a>
+                    <a href="cart.html"><img src="Photos/shop.png" alt="shop"></a>
+                </div>
+    
+            </div>
+        </nav>
+        <nav class="product_top">
+                <div class="close product_close"><img src="Photos/X.svg" alt="close"></div>
+                <div class="burger_menu product_burger_menu">
+                <p class="burger_head">MENU</p>
+                <h3 class="burger_box_head">MAN</h3>
+                <div class="burger_box">
+                    <a href="catalog.html" class='burger_box_text'>Accessories</a>
+                    <a href="catalog.html" class='burger_box_text'>Bags</a>
+                    <a href="catalog.html" class='burger_box_text'>Denim</a>
+                    <a href="catalog.html" class='burger_box_text'>T-Shirts</a>
+                </div>
+                <h3 class="burger_box_head">WOMEN</h3>
+                <div class="burger_box">
+                    <a href="#" class='burger_box_text'>Accessories</h3>
+                        <a href="catalog.html" class='burger_box_text'>Jackets & Coats</a>
+                        <a href="catalog.html" class='burger_box_text'>Polos</a>
+                        <a href="catalog.html" class='burger_box_text'>T-Shirts</a>
+                        <a href="catalog.html" class='burger_box_text'>Shirts</a>
+                </div>
+                <h3 class="burger_box_head">KIDS</h3>
+                <div class="burger_box">
+                    <a href="catalog.html" class='burger_box_text'>Accessories</a>
+                    <a href="catalog.html" class='burger_box_text'>Jackets & Coats</a>
+                    <a href="catalog.html" class='burger_box_text'>Polos</a>
+                    <a href="catalog.html" class='burger_box_text'>T-Shirts</a>
+                    <a href="catalog.html" class='burger_box_text'>Shirts</a>
+                    <a href="catalog.html" class='burger_box_text'>Bags</a>
+                </div>
+                </div>
+            
+            <div class="container">
+                <div class="top_flex">
+                    <p class="product_top_left">SHOPPING CART</p>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="cart_content container">
+        <div class="goods">
+            <div class="long_card">
+                <img class="long_card_img" src="Photos/longcard-1.png" alt="">
+                <div class="long_card_text_box">
+                    <p class="long_card_big_text">MANGO  PEOPLE  T-&nbsp;SHIRT</p>
+                    <div class="long_card_flex_text">
+                        <p class="left_card_text">Price:</p>
+                        <p class="right_card_text pink">$300</p>
+                    </div>
+                    <div class="long_card_flex_text">
+                        <p class="left_card_text">Color:</p>
+                        <p class="right_card_text">Red</p>
+                    </div>
+                    <div class="long_card_flex_text">
+                        <p class="left_card_text">Size:</p>
+                        <p class="right_card_text">Xl</p>
+                    </div>
+                    <div class="long_card_flex_text">
+                        <p class="left_card_text">Quantity:</p>
+                        <div class="right_card_text quantity">2</div>
+                    </div>
+                </div>
+                <img src="Photos/close-card.svg" alt="" class="long_card_close">
+            </div>
+            <div class="long_card">
+                <img class="long_card_img" src="Photos/longcard-2.png" alt="">
+                <div class="long_card_text_box">
+                    <p class="long_card_big_text">MANGO  PEOPLE  T-&nbsp;SHIRT</p>
+                    <div class="long_card_flex_text">
+                        <p class="left_card_text">Price:</p>
+                        <p class="right_card_text pink">$300</p>
+                    </div>
+                    <div class="long_card_flex_text">
+                        <p class="left_card_text">Color:</p>
+                        <p class="right_card_text">Red</p>
+                    </div>
+                    <div class="long_card_flex_text">
+                        <p class="left_card_text">Size:</p>
+                        <p class="right_card_text">Xl</p>
+                    </div>
+                    <div class="long_card_flex_text">
+                        <p class="left_card_text">Quantity:</p>
+                        <div class="right_card_text quantity">2</div>
+                    </div>
+                </div>
+                <img src="Photos/close-card.svg" alt="" class="long_card_close">
+            </div>
+            <div class="btn_flex">
+                <div class="btn_long_card">CLEAR SHOPPING CART</div>
+                <div class="btn_long_card">CONTINUE SHOPPING</div>
+            </div>
+        </div>
+
+        <div class="payment">
+            <form class="shop_adress" action="#">
+                <label for="">
+                    <p class="label_text">SHIPPING ADRESS</p>
+                    <input type="text" name="adress" id="city" placeholder="Bangladesh">
+                    <input type="text" name="adress" id="state" placeholder="State">
+                    <input type="text" name="adress" id="post_code" placeholder="Postcode / Zip">
+                </label>
+                <div class="btn_get">GET A QUOTE</div>
+            </form>
+
+            <div class="paybox">
+                <div class="total_text">
+                    <div class="total_flex_text">
+                        <p class="subtotal">SUB TOTAL</p>
+                        <p class="subtotal_money">$900</p>
+                    </div>
+                    <div class="total_flex_text">
+                        <p class="total">GRAND TOTAL</p>
+                        <p class="total_money">$900</p>
+                    </div>
+                </div>
+                <hr class="pay_line">
+                <div class="btn_pay">PROCEED TO CHECKOUT</div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="top_footer">
+            <div class="container">
+                <div class="footer_flex">
+                    <div class="top_footer_left">
+                        <img class="footer_face" src="Photos/face.png" alt="">
+                        <p class="left_footer_text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, <i>a pulvinar
+                                purus condimentum“</i></p>
+                    </div>
+                    <div class="top_footer_right">
+                        <div class="right_footer_textBox">
+                            <h2 class="right_footer_heading">SUBSCRIBE</h2>
+                            <p class="right_footer_text">FOR OUR NEWLETTER AND PROMOTION</p>
+                        </div>
+                        <form action="#" class="footer_form">
+                            <input class="input_footer" type="email" placeholder="Enter Your Email">
+                            <input class="submit_footer" type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom_footer">
+            <div class="container">
+                <div class="footer_flex">
+                    <div class="bot_footer_left">
+                        <p class="copy">&copy 2021 Brand All Rights Reserved.</p>
+                    </div>
+                    <div class="bot_footer_right">
+                        <i class="fa fa-brands fa-facebook-f"></i>
+                        <i class="fa fa-brands fa-instagram"></i>
+                        <i class="fa fa-brands fa-pinterest-p"></i>
+                        <i class="fa fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/e00b6a1e5b.js" crossorigin="anonymous"></script>
+    <script>
+        let cor = document.querySelectorAll('.corusel_img');
+        let butLeft = document.querySelector('.corusel_but_left');
+        let butRight = document.querySelector('.corusel_but_right');
+        let i = 0
+        butLeft.onclick = function () {
+            cor[i].style.display = 'none'
+            i--;
+            if (i<0) {
+                i = 2
+            }
+            cor[i].style.display = 'block'
+        }
+        butRight.onclick = function () {
+            cor[i].style.display = 'none'
+            i++;
+            if (i > 2) {
+                i = 0
+            }
+            cor[i].style.display = 'block'
+        }
+    </script>
+    <script>
+        let clickOff = document.querySelector('.close');
+        clickOff.onclick = function () {
+            document.querySelector('.burger_menu').style.display = 'none';
+            clickOff.style.display = 'none';
+            clickOn.style.transform = "rotate(0deg)";
+        }
+
+
+        let clickOn = document.querySelector('.burger');
+        clickOn.onclick = function () {
+            if (document.querySelector('.burger_menu').style.display === 'block') {
+                document.querySelector('.burger_menu').style.display = 'none';
+                clickOff.style.display = 'none';
+                clickOn.style.transform = "rotate(0deg)";
+            }
+            else {
+                document.querySelector('.burger_menu').style.display = 'block';
+                document.querySelector('.close').style.display = 'block';
+                clickOn.style.transform = "rotate(90deg)";
+            }
+        }
+    </script>
+</body>
+</html>
